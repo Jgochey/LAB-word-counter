@@ -26,6 +26,9 @@ const toggleMode = (btnText) => {
   // complete the function
   var element = document.body;
   element.classList.toggle("dark-mode")
+  
+  document.querySelector("#bg-switch")
+  element.classList.toggle("dark-mode-btn")
 }
 
 // ************************************************ //
